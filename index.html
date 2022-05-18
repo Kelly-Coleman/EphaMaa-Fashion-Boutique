@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> EphaMaa Fashion Boutique</title>
+<style>
+header, footer{
+background: black;
+color:white;
+padding:20px 10px;
+}
+
+ul{
+margin:0;
+padding:0;
+}
+
+li{
+list-style:i;
+line-height:30px;
+background-color:wheat;
+}
+
+header a, footer a{
+text-decoration:none;
+color:white;
+padding:6px;
+}
+
+input[type="search"]{
+width:100%;
+}
+
+a:hover{
+color:#FFD700;
+}
+
+body{
+font-family:Comic Sans MS;
+margin: auto;
+padding:5px;
+text-align:center;
+}
+
+.products{
+box-sizing:border-box;
+border: 3px solid black;
+<!--width:320px;-->
+margin:5px;
+padding:5px;
+text-align:center;
+}
+
+img{
+max-width:100%;
+}
+
+header li, footer li{
+display:inline;
+}
+
+header h1, nav, footer h1, nav{
+display:inline-block;
+}
+
+header h1, footer h1{
+width:100%;
+}
+
+header nav li, footer nav li{
+align:right;
+}
+
+.button{
+padding:40px;
+}
+
+p:nth-of-type(2) {
+color:red;
+}
+
+#id,a:last-of-type{
+background:red;
+}
+
+.aside{
+float:right;
+width:25%;
+padding:2px;
+display:inline-block;
+}
+
+@media (min-width:700px) and (max-width:1200px){
+li{
+color:blue;
+  }
+}
+@media (min-width:700px){
+input[type="search"]{
+width:20%;
+margin-left: 1em;
+}
+  .product {
+  display:inline-block;
+  width:60%;
+  }
+}
+
+@media (min-width:650px){
+body{
+text-align:left;
+}
+header h1, footer h1{
+width:75%;
+}
+main{
+width: 50%;
+display: inline-block;
+padding:5px;
+}
+
+aside{
+width: 20%;
+display:inline-block;
+vertical-align:top;
+padding:2px;
+  }
+}
+
+@media (min-width:1200px){
+  body{
+      max-width: 95vw;
+	  }
+	  .product{
+	  width:60%;
+	  }
+}
+</style>
+</head>
+<body lang="en" bgcolor="00cccc">
+<header>
+<h1>EphaMaa Fashion Boutique &#9787;</h1>
+<!--Nagivation bars in the header-->
+<nav>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="About Us.html">About Us</a></li>
+<li><a href="Contact Us.html">Contact Us &phone;</a></li>
+</ul>
+</nav>
+<input type="search" placeholder="search...">
+</header>
+<hr>
+<p style="text-align:center" id="top"><a href="#bottom">Go to Bottom</a></p>
+<!--Side bars-->
+<aside>
+<h2 style="background:white;">Items</h2>
+<hr>
+<ul style="background:pink;">
+<li>Beautiful Dresses.</li>
+<li>Men Sweat Pants.</li>
+<li> Beautiful Deras.</li>
+<li>Beautiful Bodyshapers.</li>
+<li>Cargo Pants.</li>
+<li>Women Jeans.</li>
+<li>Beautiful Skirts.</li>
+<li>Cool T-Shirts.</li>
+<li>Well fitting Shirts.</li>
+<li>Beautiful well-fitting Kakis.</li>
+<li>Cool Men Jeans.</li>
+</ul>
+<h2 style="background:white;">Prices</h2>
+<hr>
+<ul style="background:pink;">
+<li>100-200 ksh</li>
+<li>200-300 ksh</li>
+<li>300-400 ksh</li>
+<li>400-500 ksh</li>
+<li>500-600 ksh</li>
+<li>600-700 ksh</li>
+<li>700-800 ksh</li>
+<li>800-900 ksh</li>
+<li>900-1,000 ksh</li>
+<li>1,000-1,100 ksh</li>
+<li>1,200-1,300 ksh</li>
+</ul>
+</aside>
+<aside class="aside">
+<h3 style="background:white;">Short Info.</h3>
+<hr>
+<p style="background:pink;">In the "more info" tab, you'll find more of the products
+you're looking for. If it's dresses, you'll find more dresses in
+there. If it is Kaki, Skirts, Dera and so on, you'll find them
+in that tab. Thank you and you make your orders.&#9829;</p>
+<button onclick="alert('Thank you for shopping with us.');">Click Here</button>
+</aside>
+<!--Main-->
+<main>
+<h3 style="background:white;"> All Items</h3>
+<div class="products">
+<img src="file:///C:\Users\home\Pictures\Saved pictures/1637826568349.jpg" alt="Full red dress." width="350" height="320"/>
+<p><font color="blue"><font size="5px">Dress</font color="blue"></font size="5px"></p>
+<p>Beautiful Well fitting Dresses&#9787;</p>
+<p><a href="Dress.html" class="button">More info</a><a href="pass.html">Click here to order</a></p>
+</div>
+<div class="products">
+<img src="file:///C:\Users\home\Pictures\Saved pictures/Screenshot_20211110-131633.jpg" alt="Full red dress." width="350" height="320"/>
+<p><font color="blue"><font size="5px">Men Sweat Pants</font color="blue"></font size="5px"></p>
+<p>Beautiful Men sweat Pants&#9787;</p>
+<p><a href="mens.html" class="button">More info</a><a href="pass.html">Click here to order</a></p>
+</div>
+<div class="products">
+<img src="file:///C:\Users\home\Pictures\Saved pictures/1637827027072.jpg" alt="Full red dress." width="350" height="320"/>
+<p><font color="blue"><font size="5px">Dera</font color="blue"></font size="5px"></p>
+<p>Beautiful Delas&#9787;</p>
+<p><a href="dera.html" class="button">More info</a><a href="pass.html">Click here to order</a></p>
+</div>
+<div class="products">
+<img src="file:///C:\Users\home\Pictures\Saved pictures/IMG_4539.jpg" width="350" height="320"/>
+<p><font color="blue"><font size="5px">Body Shaper</font color="blue"></font size="5px"></p>
+<p>Beautiful Body Shaper&#9787;</p>
+<p><a href="Body.html" class="button">More info</a><a href="pass.html">Click here to order</a></p>
+</div>
+<div class="products">
+<img src="file:///C:\Users\home\Pictures\Saved pictures/IMG_4538.jpg" width="500" height="400"/>
+<p><font color="blue"><font size="5px">Cargo Pants</font color="blue"></font size="5px"></p>
+<p>Beautiful Cargo Pants</p>
+<p><a href="cargo.html" class="button">More info</a><a href="pass.html">Click here to order</a></p>
+</div>
+<div class="products">
+<img src="file:///C:\Users\home\Pictures\Saved pictures/1637827464397.jpg" width="400" height="500"/>
+<p><font color="blue"><font size="5px">Women Jeans</font color="blue"></font size="5px"></p>
+<p>Beautiful Women Jeans</p>
+<p><a href="women.html" class="button">More info</a><a href="pass.html">Click here to order</a></p>
+</div>
+<div class="products">
+<img src="file:///C:\Users\home\Pictures\Saved pictures/1643627824895.jpg" width="400" height="500"/>
+<p><font color="blue"><font size="5px">Skirts</font color="blue"></font size="5px"></p>
+<p>Beautiful Blue Skirts</p>
+<p><a href="Skirts.html" class="button">More info</a><a href="pass.html">Click here to order</a></p>
+</div>
+<div class="products">
+<img src="file:///C:\Users\home\Pictures\Saved pictures/1637828244850.jpg" width="500" height="500"/>
+<p><font color="blue"><font size="5px">T-Shirts</font color="blue"></font size="5px"></p>
+<p>T-Shirts</p>
+<p><a href="t-shirt.html" class="button">More info</a><a href="pass.html">Click here to order</a></p>
+</div>
+<div class="products">
+<img src="file:///C:\Users\home\Pictures\Saved pictures/1638182277860.jpg" width="400" height="400"/>
+<p><font color="blue"><font size="5px">Shirts</font color="blue"></font size="5px"></p>
+<p>Shirts</p>
+<p><a href="shirt.html" class="button">More info</a><a href="pass.html">Click here to order</a></p>
+</div>
+<div class="products">
+<img src="file:///C:\Users\home\Pictures\Saved pictures/1637827223610.jpg" width="400" height="400"/>
+<p><font color="blue"><font size="5px">Kaki</font color="blue"></font size="5px"></p>
+<p>Kaki</p>
+<p><a href="kaki.html" class="button">More info</a><a href="pass.html">To order, Click here</a></p>
+</div>
+<div class="products">
+<img src="file:///C:\Users\home\Pictures\Saved pictures/1637826908006.jpg" width="400" height="400"/>
+<p><font color="blue"><font size="5px">Men Jeans</font color="blue"></font size="5px"></p>
+<p>Men Jeans</p>
+<p><a href="menjeans.html" class="button">More info</a><a href="pass.html">To order, Click here</a></p>
+</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sL3kLxsy-Lg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</main>
+<p style="text-align:center" id="bottom"><a href="#top">Go to Top</a></p>
+<footer>
+<h1>EphaMaa Fashion Boutique &#9787;</h1>
+<!--Nagivation bars in the header-->
+<nav>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="About Us.html">About Us</a></li>
+<li><a href="Contact Us.html">Contact Us &phone;</a></li>
+</ul>
+</nav>
+<input type="search" placeholder="search...">
+</footer>
+</body>
+</html>
